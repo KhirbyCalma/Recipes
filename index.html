@@ -3,38 +3,43 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
         <title>Khirby's Recipes</title>
     </head>
     <body>
-        <header>
-            <h1>Khirby's Recipes</h1>
-        </header>
         <main>
-            <section id="hero-image">
-                <img src="./images/kirbycooking.gif" alt="Kirby cooking">
+            <section id="hero">
+                <img class="hero-image" src="./images/kirbycooking.gif" alt="Kirby cooking">
+                <h1 class="hero-text">Khirby's Recipes</h1>
             </section>
-            <section id="main-content">
+            <section class="recipes">
                 <h2>Filipino Dishes</h2>
                 <section class="recipe-list">
-                    <div class="recipe">
-                        <h3>Lumpia</h3>
+                    <div class="recipe-card">
                         <a href="./recipes/lumpia.html">
-                            <img src="./images/lumpia.jpeg" alt="Filipino Lumpia">
+                            <img class="recipe-img" src="./images/lumpia.jpeg" alt="Filipino Lumpia">
                         </a>
+                        <div class="overlay">
+                            <h3 class="overlay-text">Lumpia</h3>
+                        </div>
                     </div>
 
-                    <div class="recipe">
-                        <h3>Beef Caldereta</h3>
+                    <div class="recipe-card">
                         <a href="./recipes/beefCaldereta.html">
-                            <img src="./images/beefcaldereta.jpeg" alt="Filipino Beef Caldereta">
+                            <img class="recipe-img" src="./images/beefcaldereta.jpeg" alt="Filipino Beef Caldereta">
                         </a>
+                        <div class="overlay">
+                            <h3 class="overlay-text">Beef Caldereta</h3>
+                        </div>
                     </div>
 
-                    <div class="recipe">
-                        <h3>Halo-Halo</h3>
+                    <div class="recipe-card">
                         <a href="./recipes/haloHalo.html">
-                            <img src="./images/halohalo.jpeg" alt="Filipino Halo-Halo">
+                            <img class="recipe-img" src="./images/halohalo.jpeg" alt="Filipino Halo-Halo">
                         </a>
+                        <div class="overlay">
+                            <h3 class="overlay-text">Halo-Halo</h3>
+                        </div>
                     </div>
                 </section>
             </section>
