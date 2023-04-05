@@ -118,7 +118,8 @@ main {
     margin-bottom: 1.5rem;
 }
 
-.recipe-content .description p, .recipe-content .ingredients ul li p {
+.recipe-content .description p, .recipe-content .ingredients ul li p,
+.recipe-content .steps ol li p {
     font-size: 1rem;
     line-height: 1.75rem;
     margin-bottom: 1.5rem;
@@ -131,7 +132,15 @@ main {
     padding: 0 0 0 40px;
 }
 
-.recipe-content .ingredients ul li {
+.recipe-content .steps ol {
+    display: block;
+    list-style: disc outside none;
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+    list-style-type: decimal;
+}
+
+.recipe-content .ingredients ul li, .recipe-content .steps ol li {
     display: list-item;
 }
 
