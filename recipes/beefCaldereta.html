@@ -4,11 +4,11 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../reset.css">
+        <link rel="stylesheet" href="../styles.css">
         <title>Filipino Beef Caldereta Recipe</title> 
     </head>
     <body>
         <header>
-            <h1>Filipino Beef Caldereta Recipe</h1>
             <nav>
                 <a href="../index.html">
                     <button>Back to Homepage</button>
@@ -16,11 +16,14 @@
             </nav>
         </header>
         <main>
-            <section id="hero-image">
+            <section class="hero">
                 <img src="../images/beefcaldereta.jpeg" alt="Filipino Beef Caldereta">
+                <div class="overlay">
+                    <h1 class="overlay-text">Filipino Beef Caldereta Recipe</h1>
+                </div>
             </section>
-            <section id="main-content">
-                <section id="recipe-description">
+            <section class="recipe-content">
+                <section class="description">
                     <h2>Description</h2>
                     <p>
                         Calderata, from the word caldera, meaning cauldron, is another example of the many Spanish influences in Filipino cuisine. 
@@ -34,7 +37,7 @@
                     </p>
                 </section>
 
-                <section id="recipe-ingredients">
+                <section class="ingredients">
                     <h2>Ingredients</h2>
                     <ul>
                         <li>
@@ -88,63 +91,54 @@
                     </ul>
                 </section>
 
-                <section id="recipe-steps">
+                <section class="steps">
+                    <h2>Steps</h2>
                     <ol>
-                        <h2>Steps</h2>
                         <li>
-                            <h3>Step 1</h3>
                             <p>
                                 In a wide pan over medium heat, heat oil. Add potatoes and carrots and 
                                 cook until lightly browned. Remove from pot and drain on paper towels.
                             </p>
                         </li>
                         <li>
-                            <h3>Step 2</h3>
                             <p>
                                 Remove oil from the pan except for about 2 tablespoons. 
                                 Add onions and garlic and cook until softened.
                             </p>
                         </li>
                         <li>
-                            <h3>Step 3</h3>
                             <p>
                                 Add beef and cook, stirring occasionally, until lightly browned.
                             </p>
                         </li>
                         <li>
-                            <h3>Step 4</h3>
                             <p>
                                 Add tomato sauce, tomato paste, water, and chili peppers. 
                                 Bring to a boil, skimming scum that may float on top. 
                             </p>
                         </li>
                         <li>
-                            <h3>Step 5</h3>
                             <p>
                                 Season with salt and pepper to taste.
                             </p>
                         </li>
                         <li>
-                            <h3>Step 6</h3>
                             <p>
                                 Lower heat, cover, and cook for about 1 to 1 1/2 hours or until beef is tender. 
                             </p>
                         </li>
                         <li>
-                            <h3>Step 7</h3>
                             <p>
                                 Add potatoes, carrots, and continue to cook until tender.
                             </p>
                         </li>
                         <li>
-                            <h3>Step 8</h3>
                             <p>
                                 Add liver spread and cheese, stirring to combine until well-distributed. 
                                 Continue to cook until cheese is melted and sauce is thickened. 
                             </p>
                         </li>
                         <li>
-                            <h3>Step 9</h3>
                             <p>
                                 Add bell peppers and olives cook for another 1 to 2 minutes until tender yet crisp. Serve hot.
                             </p>
@@ -153,5 +147,8 @@
                 </section>
             </section>
         </main>
+        <footer>
+            <p>Copyright &copy; Khirby Calma, <script>document.write(new Date().getFullYear());</script></p>
+        </footer>
     </body>
 </html>
