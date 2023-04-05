@@ -99,6 +99,28 @@ body{
     text-align: center;
 }
 
+.recipe-content {
+    width: 50ch;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 3rem auto;
+}
+
+.recipe-content .description h2, .recipe-content .ingredients h2, 
+.recipe-content .steps h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.recipe-content .description p {
+    font-size: 1rem;
+}
+
+.recipe-content .ingredients h2{
+
+}
+
 /* FOOTER */
 footer {
     text-align: center;
