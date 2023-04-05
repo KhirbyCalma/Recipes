@@ -39,6 +39,10 @@ body{
 }
 
 /* MAIN */
+main {
+    background-image: url("./images/white-pattern.png");
+}
+
 .recipes {
     margin: 3rem;
 }
