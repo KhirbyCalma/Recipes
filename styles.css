@@ -111,14 +111,24 @@ body{
 .recipe-content .steps h2{
     font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 1.5rem;
 }
 
-.recipe-content .description p {
+.recipe-content .description p, .recipe-content .ingredients ul li p {
     font-size: 1rem;
+    line-height: 1.75rem;
+    margin-bottom: 1.5rem;
 }
 
-.recipe-content .ingredients h2{
+.recipe-content .ingredients ul {
+    display: block;
+    list-style: disc outside none;
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+}
 
+.recipe-content .ingredients ul li {
+    display: list-item;
 }
 
 /* FOOTER */
