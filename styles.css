@@ -7,6 +7,29 @@ body{
 }
 
 /* HEADER */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+nav a button{
+    color: black;
+    text-align: center;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+}
+  
+nav a button:hover, nav a button.active {
+    transition: .5s ease;;
+    background-color: #04AA6D;
+    color: white;
+}
+
 .hero {
   position: relative; 
   width: 100%;
