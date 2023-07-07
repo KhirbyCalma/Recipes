@@ -64,7 +64,7 @@ nav a button:hover, nav a button.active {
 
 /* MAIN */
 main {
-    background-image: url("./images/white-pattern.png");
+    background-image: url("../images/white-pattern.png");
 }
 
 .recipes {
